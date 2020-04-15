@@ -5,3 +5,32 @@ window:
 font:
   normal: { family: JetBrains Mono }
   size: 8.0
+
+# Material Theme (modified)
+colors:
+  # Default colors
+  primary:
+    background: '#263238'
+    foreground: '#eeffff'
+
+  # Normal colors
+  normal:
+    black:   '#000000'
+    red:     '#ff5370'
+    green:   '#c3e88d'
+    yellow:  '#f7eb95'
+    blue:    '#82aaff'
+    magenta: '#c792ea'
+    cyan:    '#89ddff'
+    white:   '#ffffff'
+
+  # Bright colors
+  bright:
+    black:   '#ff262b'
+    red:     '#eb606b'
+    green:   '#c3e88d'
+    yellow:  '#f7eb95'
+    blue:    '#7dc6bf'
+    magenta: '#6c71c4'
+    cyan:    '#35434d'
+    white:   '#ffffff'
