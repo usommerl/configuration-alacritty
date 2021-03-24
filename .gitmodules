@@ -1,0 +1,3 @@
+[submodule "dracula-alacritty"]
+	path = dracula-alacritty
+	url = https://github.com/dracula/alacritty.git
