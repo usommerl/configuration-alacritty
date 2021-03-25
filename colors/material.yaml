@@ -1,0 +1,15 @@
+# Colors (Material)
+colors:
+  primary:
+    background: '0x263238'
+    foreground: '0xeeffff'
+
+  normal:
+    black:   '0x000000'
+    red:     '0xff5370'
+    green:   '0xc3e88d'
+    yellow:  '0xffcb6b'
+    blue:    '0x82aaff'
+    magenta: '0xbb80b3'
+    cyan:    '0x89ddff'
+    white:   '0xffffff'
