@@ -3,6 +3,7 @@
 install() {
   link "$REPOSITORY_ROOT" "${XDG_CONFIG_HOME:-$HOME/.config}/alacritty"
   pip install --user alacritty-colorscheme
+  setup_submodules
 }
 
 post_remove_hook() {
