@@ -4,3 +4,6 @@
 [submodule "alacritty-theme"]
 	path = alacritty-theme
 	url = https://github.com/eendroroy/alacritty-theme.git
+[submodule "kanagawa-alacritty"]
+	path = kanagawa-alacritty
+	url = https://github.com/rebelot/kanagawa.nvim

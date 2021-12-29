@@ -12,29 +12,65 @@ scrolling:
   history: 20000
 
 colors:
-  # Default colors
+  # COLORSCHEME: kanagawa.yml
   primary:
-    background: '#263238'
-    foreground: '#eeffff'
+    # hard contrast: background = '0x1d2021'
+    background: '0x1f1f28'
+    foreground: '0xdcd7ba'
 
-  # Normal colors
   normal:
-    black:   '#000000'
-    red:     '#ff5370'
-    green:   '#c3e88d'
-    yellow:  '#ffcb6b'
-    blue:    '#82aaff'
-    magenta: '#c792ea'
-    cyan:    '#89ddff'
-    white:   '#ffffff'
-
   # Bright colors
+    black: '0x090618'
+    red: '0xc34043'
+    green: '0x76946a'
+    yellow: '0xc0a36e'
+    blue: '0x7e9cd8'
+    magenta: '0x957fb8'
+    cyan: '0x6a9589'
+    white: '0xc8c093'
+
   bright:
-    black:   '#ff262b'
-    red:     '#eb606b'
-    green:   '#c3e88d'
-    yellow:  '#f7eb95'
-    blue:    '#7dc6bf'
-    magenta: '#6c71c4'
-    cyan:    '#35434d'
-    white:   '#ffffff'
+    black: '0x727169'
+    red: '0xe82424'
+    green: '0x98bb6c'
+    yellow: '0xe6c384'
+    blue: '0x7fb4ca'
+    magenta: '0x938aa9'
+    cyan: '0x7aa89f'
+    white: '0xdcd7ba'
+
+  cursor:
+    text: CellBackground
+    cursor: CellForeground
+  dim:
+    black: '0x14151b'
+    red: '0xff2222'
+    green: '0x1ef956'
+    yellow: '0xebf85b'
+    blue: '0x4d5b86'
+    magenta: '0xff46b0'
+    cyan: '0x59dffc'
+    white: '0xe6e6d1'
+  indexed_colors:
+    - {index: 16, color: '0xffa066'}
+    - {index: 17, color: '0xff5d62'}
+  vi_mode_cursor:
+    text: CellBackground
+    cursor: CellForeground
+  search:
+    matches:
+      foreground: '0x44475a'
+      background: '0x50fa7b'
+    focused_match:
+      foreground: '0x44475a'
+      background: '0xffb86c'
+    bar:
+      background: '0x282a36'
+      foreground: '0xf8f8f2'
+  line_indicator:
+    foreground: None
+    background: None
+  selection:
+    background: '0x2d4f67'
+    foreground: '0xc8c093'
+
