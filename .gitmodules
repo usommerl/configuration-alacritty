@@ -7,3 +7,6 @@
 [submodule "kanagawa-alacritty"]
 	path = kanagawa-alacritty
 	url = https://github.com/rebelot/kanagawa.nvim
+[submodule "tokyonight.nvim"]
+	path = tokyonight.nvim
+	url = git@github.com:folke/tokyonight.nvim.git
